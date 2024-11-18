@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 5rem;
+      }
+      .navbutton {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+      }
+
+      .nav {
+        display: flex;
+        flex-direction: row;
+        height: 3rem;
+        width: 10rem;
+        font-size: 2rem;
+        gap: 1rem;
+        margin-top: 3rem;
+        border: solid black 2px;
+      }
+      .heading {
+        margin-top: 10%;
+      }
+
+      .button {
+        padding: 10px 30px;
+        border-radius: 8px;
+        text-decoration: none;
+        border: solid 2px black;
+        height: 10rem;
+        width: 10rem;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div class="navbutton">
+      <a href="" class="nav">Home</a>
+      <a href="" class="nav">Youtube</a>
+    </div>
+    <h1 class="heading2">Color Scheme Switcher</h1>
+
+    <span class="button" id="grey" style="background-color: gray"></span>
+    <span class="button" id="white" style="background-color: white"></span>
+    <span class="button" id="blue" style="background-color: blue"></span>
+    <span class="button" id="yellow" style="background-color: yellow"></span>
+    <span class="button" id="orange" style="background-color: orange"></span>
+
+    <h2 class="heading">
+      try clicking one of the colors above to change bg color of this project
+    </h2>
+    <script src="script.js"></script>
+  </body>
+</html>
